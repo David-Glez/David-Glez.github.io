@@ -1,5 +1,5 @@
 {
-  "homepage": "https://david-glez.github.io/David-Glez.github.io",
+  "homepage": "https://david-glez.github.io/",
   "name": "portafolio-david",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,9 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
