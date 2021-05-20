@@ -15,7 +15,12 @@ const About = (props) => {
                 <div className = 'nine columns main-col'>
                     <h2>Acerca de mi</h2>
                     <p>
-                        Aqui va mi descripcion
+                        Mi nombre es David González. Actualmente radico en la ciudad de San Luis Potosí y soy egresado del Instituto Tecnológico de
+                        San Luis Potosí en la carrera de Ingeniería en Sistemas Computacionales. Programando desde los 17 años, he desarrollado en distintos 
+                        lenguajes tanto en prácticas y proyectos universitarios como en la industria, siendo ejemplo de ello los lenguajes PHP, Java, JavaScript,
+                        C++ y Python, y los frameworks React, Electron y Laravel.  
+                        De carácter tranquilo y analitico, simepre estoy en busca de más conocimiento
+                        para estar a la vanguardia en el ramo. 
                     </p>
                     <div className = 'row'>
                         <div className = 'columns contact-details'>

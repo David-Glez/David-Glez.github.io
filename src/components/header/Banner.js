@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-scroll';
 
 const Banner = (props) => {
 
@@ -22,10 +23,16 @@ const Banner = (props) => {
             </div>
         </div>
 
-        <p className = 'scrolldown'>
-            <a className = 'smoothscroll' href = '#about'>
+        <p className = 'scrolldown cursorHover'>
+            <Link 
+                activeClass = 'current' 
+                to = 'about'
+                smooth = {true}
+                spy = {true}
+                offset = {0}
+                duration = {750}>
                 <i className = 'icon-down-circle'></i>
-            </a>
+            </Link>
         </p>
         </>
     )

@@ -5,6 +5,7 @@ body {
     background: #0f0f0f; 
 }
 
+
 /* header */
 header {
     position: relative;
@@ -35,7 +36,7 @@ header {
  
  header .banner-text { width: 100%; }
  header .banner-text h1 {
-    font: 90px/1.1em 'opensans-bold', sans-serif;
+    font: 75px/1.1em 'opensans-bold', sans-serif;
     color: #fff;
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
@@ -96,6 +97,8 @@ header {
  }
  header .scrolldown a:hover { color: #11ABB0; }
 
+
+ /* primary navigation  */
  #nav-wrap ul, #nav-wrap li, #nav-wrap a {
     margin: 0;
     padding: 0;
@@ -160,7 +163,7 @@ ul#nav li.cursorHover {
     cursor: pointer;
 }
 
-
+/*  ABOUT   */
 #about {
     background: #2B2B2B;
     padding-top: 96px;
@@ -245,3 +248,11 @@ ul#nav li {
   display: inline-block;
 }
 
+
+/*  resume  */
+#resume {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+ }

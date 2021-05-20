@@ -40,15 +40,27 @@ const Navbar = (props) => {
                         Acerca de mi
                     </Link>
                 </li>
-                <li className = {(location.pathname == '/experience') ? 'current' : ''}>
-                    <a className = 'smoothscroll' href = '#experience'>
+                <li className = 'cursorHover'>
+                    <Link
+                        activeClass = 'current'
+                        to = 'resume'
+                        smooth = {true}
+                        spy = {true}
+                        offset = {0}
+                        duration = {750}>
                         Experiencia
-                    </a>
+                    </Link>
                 </li>
-                <li className = {(location.pathname == '/projects') ? 'current' : ''}>
-                    <a className = 'smoothscroll' href = '#projects'>
+                <li className = 'cursorHover'>
+                    <Link
+                        activeClass = 'current'
+                        to = 'portfolio'
+                        smooth = {true}
+                        spy = {true}
+                        offset = {0}
+                        duration = {750}>
                         Proyectos
-                    </a>
+                    </Link>
                 </li>
                 <li className = {(location.pathname == '/contact') ? 'current' : ''}>
                     <a className = 'smoothscroll' href = '#contact'>
