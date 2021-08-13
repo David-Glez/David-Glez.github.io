@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c962a473.chunk.css",
-    "main.js": "/static/js/main.a4515926.chunk.js",
-    "main.js.map": "/static/js/main.a4515926.chunk.js.map",
+    "main.js": "/static/js/main.caf97eb7.chunk.js",
+    "main.js.map": "/static/js/main.caf97eb7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9813f376.js",
     "runtime-main.js.map": "/static/js/runtime-main.9813f376.js.map",
     "static/css/2.bb25cdbb.chunk.css": "/static/css/2.bb25cdbb.chunk.css",
@@ -12,6 +12,7 @@
     "static/css/2.bb25cdbb.chunk.css.map": "/static/css/2.bb25cdbb.chunk.css.map",
     "static/css/main.c962a473.chunk.css.map": "/static/css/main.c962a473.chunk.css.map",
     "static/js/2.5f0507a5.chunk.js.LICENSE.txt": "/static/js/2.5f0507a5.chunk.js.LICENSE.txt",
+    "static/media/CV David Gonzalez.e2d188e7.pdf": "/static/media/CV David Gonzalez.e2d188e7.pdf",
     "static/media/HMI-home.4d603508.PNG": "/static/media/HMI-home.4d603508.PNG",
     "static/media/HMI-maintenance.6c2925ed.PNG": "/static/media/HMI-maintenance.6c2925ed.PNG",
     "static/media/HMI-sensors.dd7198fd.PNG": "/static/media/HMI-sensors.dd7198fd.PNG",
@@ -39,6 +40,6 @@
     "static/css/2.bb25cdbb.chunk.css",
     "static/js/2.5f0507a5.chunk.js",
     "static/css/main.c962a473.chunk.css",
-    "static/js/main.a4515926.chunk.js"
+    "static/js/main.caf97eb7.chunk.js"
   ]
 }
