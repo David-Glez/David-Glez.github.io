@@ -1,6 +1,7 @@
 import React from 'react';
 
 import picture from '../assets/images/dave.jpg';
+import cv from '../assets/cv/CV David Gonzalez.pdf'
 
 const About = (props) => {
 
@@ -37,7 +38,7 @@ const About = (props) => {
 
                         <div className="columns download">
                             <p>
-                                <a href="#" className="button"><i className="fa fa-download"></i>Descargar CV</a>
+                                <a rel="noopener noreferrer" target="_blank" href = {cv} className="button"><i className="fa fa-download"></i>Descargar CV</a>
                             </p>
                         </div>
                     </div>
