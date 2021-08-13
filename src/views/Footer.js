@@ -9,13 +9,8 @@ const Footer = (props) => {
             <div className="row">
                 <div className="twelve columns">
                     <ul className="social-links">
-                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i className="fa fa-skype"></i></a></li>
+                        <li><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/david-gonz%C3%A1lez-8b8a29207/"><i className="fa fa-linkedin"></i></a></li>
+                        <li><a rel="noopener noreferrer" target="_blank" href="https://github.com/David-Glez"><i className="fa fa-github" /></a></li>
                     </ul>
                     <ul className="copyright">
                         <li>&copy; Copyright 2021 DG</li>  

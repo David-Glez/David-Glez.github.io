@@ -9,26 +9,6 @@
         letter-spacing: -1px;
         margin: 0 auto 12px auto;
     }
-
-    /*  portfolio section   */
-    /* #projects .project-item {
-		flex-direction: row;
-	}
-	#projects .project-item:nth-child(even) {
-		flex-direction: row-reverse;
-	}
-	#projects .project-item {
-		height: 400px;
-		margin: 0;
-		width: 100%;
-		border-radius: 0;
-	}
-	#projects .all-projects .project-info {
-		height: 100%;
-	}
-	#projects .all-projects .project-img {
-		height: 100%;
-	} */
 }
 
 
@@ -115,11 +95,6 @@
     #navegation > button.mobile-btn{
         display: block;
     }
-    /*  toggle buttons   */
-    /* #navegation:not(:target) > a:first-of-type,
-    #navegation:target > a:last-of-type{
-        display: block;
-    } */
 
     /*  hide menu panel */
     #navegation ul#nav {
@@ -232,7 +207,7 @@
 	}
 	
 	#portfolio .project-item {
-		height: 400px;
+		/* height: 400px; */
 		margin: 0 0 20px 0;
 		width: 100%;
 		border-radius: 10px;

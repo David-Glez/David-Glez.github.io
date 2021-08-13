@@ -22,6 +22,12 @@ import nomPregunta from '../assets/images/portafolio/nom-pregunta.PNG'
 import nomResultado from '../assets/images/portafolio/nom-resultado.PNG'
 import nomUsuarios from '../assets/images/portafolio/nom-usuarios.PNG' 
 
+//  imagenes de sistema de tickets
+import ebpLogin from '../assets/images/portafolio/ebp-login.PNG'
+import ebpIndex from '../assets/images/portafolio/ebp-index.PNG'
+import ebpTicket from '../assets/images/portafolio/ebp-ticket.PNG'
+import ebpForm from '../assets/images/portafolio/ebp-form.PNG'
+
 //  tarjeta de cada proyecto
 import CarouselPortfolio from '../components/carousel/Carousel';
 
@@ -32,7 +38,7 @@ const Portafolio = (props) => {
         {
             projectName: 'Roboshot',
             description: 'HMI para un robot de tipo SCARA el cual esta destinado a servir bebidas alcoholicas y sin alcohol, ya sea de alguna receta predeterminada o personalizada por el usuario. Es capaz de mostrar el catálogo disponible de bebidas, visualizar y calibrar ingredientes asi como su disponibilidad, hacer cobros en efectivo, generar reportes de ventas en formatos Excel y PDF y escanear códigos QR de pedidos realizados mediente la plataforma web desarrollada en conjunto.',
-            technologies: 'Electron JS, Node JS, Knockout JS, Laravel 6, PostgreSQL, Bootstrap y CSS',
+            technologies: 'Electron JS, Node JS, Knockout JS, Laravel 6, PostgreSQL, Bootstrap y CSS.',
             images: [
                 roboshotHome,
                 roboshotPanel,
@@ -42,7 +48,7 @@ const Portafolio = (props) => {
         },{
             projectName: 'Robo API',
             description: 'API desarrollada en conjunto con la plataforma del ROBOSHOT, para funcionamiento de pedidos en linea. Obtiene la receta que solicite el usuario mediante el código QR previamente registrado, este se escanea en la estación física y sirve dicha bebida. Además, tambien sirve de datos a la plataforma en linea con los datos del clientes dueños de la estación ROBOSHOT y de los consumidores.',
-            technologies: 'Laravel 6 y PostgreSQL autenticado con Laravel Passport y utilizada con Axios, Ajax y Postman. Plataforma web creada con React JS, Bootstrap 4.6 y CSS',
+            technologies: 'Laravel 6 y PostgreSQL autenticado con Laravel Passport y utilizada con Axios, Ajax y Postman. Plataforma web creada con React JS, Bootstrap 4.6 y CSS.',
             images: [
                 roboAPIHome,
                 roboAPIRecetas
@@ -50,7 +56,7 @@ const Portafolio = (props) => {
         },{
             projectName: 'HMI SCARA',
             description: 'HMI para el control de un robot tipo SCARA. Este cuenta con un sistema de monitoreo en tiempo real de los sensores que contiene, además de que permite la ejecución de movimientos utilizando trayectorias predefinidas. Aplicación aún en desarrollo.',
-            technologies: 'Electron JS, Node JS, Knockout JS y SQLite',
+            technologies: 'Electron JS, Node JS, Knockout JS y SQLite.',
             images: [
                 hmiHome,
                 hmiMaintenance,
@@ -67,7 +73,17 @@ const Portafolio = (props) => {
                 nomResultado,
                 nomUsuarios
             ]
-        },
+        },{
+            projectName: 'Sistema de Tickets EBP',
+            description: 'Sistema creado para el control de solicitudes de soporte dentro de la empresa utilizando la metodología de tickets. El sistema es capaz de dar de alta usuarios, proyectos, asignar tickets a determinados usuarios de acuerdo al proyecto que sea asignado, manejo de prioridades y estatus, comentarios sobre los tickets asignados y notificaciones de cambios mediante correo electrónico. Tambien maneja usuarios, roles y permisos.',
+            technologies: 'Laravel 8, JavaScript, Tailwind y CSS.',
+            images: [
+                ebpLogin,
+                ebpTicket,
+                ebpIndex,
+                ebpForm
+            ]
+        }
     ])
 
     return(
